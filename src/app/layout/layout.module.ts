@@ -7,6 +7,8 @@ import { MenuComponent } from './menu/menu.component';
 import { MenuButtonsComponent } from './menu/buttons/menu-buttons/menu-buttons.component';
 import { HistoryButtonsComponent } from './menu/buttons/history-buttons/history-buttons.component';
 import { BeauGesteButtonsComponent } from './menu/buttons/beau-geste-buttons/beau-geste-buttons.component';
+import { HomeButtonsComponent } from './menu/buttons/home-buttons/home-buttons.component';
+import { BeauGesteSetsComponent } from './menu/buttons/beau-geste-sets/beau-geste-sets.component';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { BeauGesteButtonsComponent } from './menu/buttons/beau-geste-buttons/bea
     MenuComponent,
     MenuButtonsComponent,
     HistoryButtonsComponent,
-    BeauGesteButtonsComponent
+    BeauGesteButtonsComponent,
+    HomeButtonsComponent,
+    BeauGesteSetsComponent
   ],
   imports: [
     CommonModule,

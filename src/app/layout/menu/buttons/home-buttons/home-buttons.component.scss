@@ -1,0 +1,94 @@
+// @import "../../assets/scss/colors";
+
+$text-color: var(--text-color);
+$brown: var(--brown);
+$green: var(--green);
+$light-green: var(--light-green);
+$dark-green: var(--dark-green);
+$green-more-dark: var(--green-more-dark);
+$yellow: var(--yellow);
+
+button {
+  background-image: radial-gradient($dark-green, $dark-green, $green-more-dark, $green-more-dark);
+  font-family: 'high_tower';
+  font-size: 2.5rem;
+  padding: 1rem 3rem;
+  text-shadow: 2px 2px 6px #000000;
+  line-height: 0.85em;
+  width: auto;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  margin: 3.5rem 1rem 0 1rem;
+  border-color: $text-color;
+  color: $text-color;
+
+  &.btn-green-neutral {
+    background-image: radial-gradient($green, $green, $dark-green, $dark-green);
+    border-color: $text-color;
+    color: $text-color;
+  }
+
+  &.btn-green-active {
+    background-image: radial-gradient($light-green, $light-green, $dark-green, $dark-green);
+    border-color: $text-color;
+    color: $text-color;
+  }
+
+  &.btn-green-active:hover {
+    background-image: radial-gradient($light-green, $light-green, $dark-green, $dark-green);
+    border-color: $text-color;
+    color: $text-color;
+  }
+
+  &.inactive-button {
+    background-image: radial-gradient($dark-green, $dark-green, $green-more-dark, $green-more-dark);
+    border-color: $text-color;
+    color: $text-color;
+  }
+
+  &.inactive-button:hover {
+    background-image: radial-gradient($light-green, $light-green, $dark-green, $dark-green);
+    border-color: $text-color;
+    color: $text-color;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media print {
+  app-home-buttons {
+    display: none;
+  }
+}
+
+.chapters-btn {
+  background-image: radial-gradient($dark-green, $dark-green, $green-more-dark, $green-more-dark);
+  font-family: 'high_tower';
+  font-size: 1.5rem;
+  padding: 0.5rem 0.8rem;
+  text-shadow: 2px 2px 6px #000000;
+  line-height: 0.85em;
+  width: auto;
+  border-radius: 15px;
+  border-width: 2px;
+  border-style: solid;
+  margin: 0.2rem;
+  border-color: $text-color;
+  color: $text-color;
+
+  &.btn-green-neutral {
+    background-image: radial-gradient($dark-green, $dark-green, $green-more-dark, $green-more-dark);
+    border-color: $text-color;
+    color: $text-color;
+  }
+
+  &.btn-green-active {
+    background-image: radial-gradient($light-green, $light-green, $dark-green, $dark-green);
+    border-color: $text-color;
+    color: $text-color;
+  }
+}

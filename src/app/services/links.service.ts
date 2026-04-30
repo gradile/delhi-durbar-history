@@ -18,11 +18,16 @@ export class LinksService {
       );
   }
 
-  getHistoryLinks(): Observable<RouterLink[]> {
-    return this.http.get<RouterLink[]>('assets/router-links-history.json')
-      .pipe(
-        shareReplay({ bufferSize: 1, refCount: true })
-      );
+  // getHistoryLinks(): Observable<RouterLink[]> {
+  //   return this.http.get<RouterLink[]>('assets/router-links-history.json')
+  //     .pipe(
+  //       shareReplay({ bufferSize: 1, refCount: true })
+  //     );
+  // }
+
+  getHomeButtons(): Observable<ButtonLink[]> {
+    return this.http.get<ButtonLink[]>('./assets/home-buttons.json')
+    .pipe(shareReplay({ bufferSize: 1, refCount: true }));
   }
 
   getHistoryButtons(): Observable<ButtonLink[]> {
@@ -35,8 +40,8 @@ export class LinksService {
     .pipe(shareReplay({ bufferSize: 1, refCount: true }));
   }
 
-  getResearchButtons(): Observable<ButtonLink[]> {
-    return this.http.get<ButtonLink[]>('assets/research-buttons.json')
+  getBeauGesteSetsButton(): Observable<ButtonLink[]> {
+    return this.http.get<ButtonLink[]>('assets/beau-geste-sets.json')
     .pipe(shareReplay({ bufferSize: 1, refCount: true }));
   }
 }

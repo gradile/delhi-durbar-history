@@ -26,22 +26,22 @@ export class LinksService {
   // }
 
   getHomeButtons(): Observable<ButtonLink[]> {
-    return this.http.get<ButtonLink[]>('./assets/home-buttons.json')
+    return this.http.get<ButtonLink[]>('./assets/json/home-buttons.json')
     .pipe(shareReplay({ bufferSize: 1, refCount: true }));
   }
 
   getHistoryButtons(): Observable<ButtonLink[]> {
-    return this.http.get<ButtonLink[]>('./assets/history-buttons.json')
+    return this.http.get<ButtonLink[]>('./assets/json/history-buttons.json')
     .pipe(shareReplay({ bufferSize: 1, refCount: true }));
   }
 
   getBeauGesteButtons(): Observable<ButtonLink[]> {
-    return this.http.get<ButtonLink[]>('assets/beau-geste-buttons.json')
+    return this.http.get<ButtonLink[]>('./assets/json/beau-geste-buttons.json')
     .pipe(shareReplay({ bufferSize: 1, refCount: true }));
   }
 
   getBeauGesteSetsButton(): Observable<ButtonLink[]> {
-    return this.http.get<ButtonLink[]>('assets/beau-geste-sets.json')
+    return this.http.get<ButtonLink[]>('./assets/json/beau-geste-sets.json')
     .pipe(shareReplay({ bufferSize: 1, refCount: true }));
   }
 }

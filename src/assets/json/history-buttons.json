@@ -2,7 +2,8 @@
   {
     "rla": "rla0",
     "label": "Home",
-    "routerLink": "/home"
+    "routerLink": "/home",
+    "className": "menu-btn"
   },
   {
     "rla": "rla1",

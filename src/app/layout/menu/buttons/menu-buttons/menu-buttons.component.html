@@ -1,3 +1,3 @@
-<button *ngFor="let btn of buttons" [routerLink]="btn.routerLink" routerLinkActive="btn-green-active">
+<button class="menu-btn" [ngClass]="btn.className" *ngFor="let btn of buttons" [routerLink]="btn.routerLink" routerLinkActive="btn-green-active">
   {{ btn.label }}
 </button>

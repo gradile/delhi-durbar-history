@@ -8,7 +8,7 @@ $dark-green: var(--dark-green);
 $green-more-dark: var(--green-more-dark);
 $yellow: var(--yellow);
 
-button {
+.home-btn {
   background-image: radial-gradient($dark-green, $dark-green, $green-more-dark, $green-more-dark);
   font-family: 'high_tower';
   font-size: 2.5rem;

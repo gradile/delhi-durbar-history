@@ -1,0 +1,31 @@
+ul li {
+  list-style-position: outside;
+  list-style-type: square;
+  margin: 0.5em 0;
+}
+
+// ul li::before {
+//   content: '';
+//   display: inline-block;
+//   width: 10px;
+//   height: 10px;
+//   background-color: var(--hover-color);
+//   margin-right: 10px;
+// }
+
+img + p {
+  font-size: 1em;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.flex-container {
+    display: flex;
+    /* Add other flexbox properties as needed */
+}
+
+.flex-item {
+    /* Flexbox properties for item positioning */
+    flex: 1;
+    padding: 10px;
+}

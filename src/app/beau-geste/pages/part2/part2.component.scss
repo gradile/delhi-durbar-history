@@ -1,0 +1,17 @@
+
+.happy-face img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+
+$text-color: var(--text-color);
+a {
+  color: $text-color;
+  text-decoration: underline;
+}
+
+.underline-text {
+  text-decoration: underline;
+}

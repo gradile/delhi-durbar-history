@@ -1,0 +1,15 @@
+a {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+@media print {
+.content-menu {
+
+  display: none;
+}
+
+app-menu {
+    display: none;
+}
+}

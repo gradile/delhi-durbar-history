@@ -1,0 +1,41 @@
+$hover-color: var(--hover-color);
+
+.wrapper {
+  max-width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.content-central {
+  width: 73.5%;
+}
+
+.content-menu {
+  border-right: 0px;
+  width: 24.5%;
+  margin-left: 12px;
+}
+
+@media screen and (max-width: 700px) {
+  .content-central {
+    width: 100%;
+  }
+
+  .content-menu {
+    border-right: 0px;
+    width: 90%;
+    margin-left: 12px;
+  }
+}
+
+@media print {
+  .content-central {
+    width: 100%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+}
+
+

@@ -1,0 +1,63 @@
+$text-color: var(--text-color);
+$brown: var(--brown);
+$green: var(--green);
+$light-green: var(--light-green);
+$dark-green: var(--dark-green);
+$green-more-dark: var(--green-more-dark);
+$yellow: var(--yellow);
+
+h1 {
+  text-shadow: linear-gradient( to bottom, #340d02, #ff9900);
+}
+
+.delhi-durbar {
+  font-family: 'high_tower';
+  color: $brown;
+  font-size: 4.2rem;
+  font-weight: 100;
+  line-height: 4rem;
+  text-shadow: 2px 2px 6px #000000;
+  margin-top: 3rem;
+}
+
+.nav-link:focus {
+  color: var(--yellow) !important;
+}
+
+.nav-link:hover {
+  color: var(--hover-color)
+}
+
+.nav-link {
+  display: flex;
+  padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.title-img {
+  max-width: 50vw;
+  height: auto;
+}
+
+.print-only {
+  display: none;
+}
+
+@media print {
+  .delhi-durbar {
+    display: none;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  .print-only{
+    display: block;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,58 @@
+@media print {
+  header,
+  footer {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  .col-md-2 {
+    width: 16%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33%;
+  }
+
+  .col-md-5 {
+    width: 41%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .for-print {
+    width: 70%;
+  }
+
+  .col-md-8 {
+    width: 66%;
+  }
+
+  @page {
+    margin: 1cm;
+  }
+
+  .page-break {
+    display:block;
+    page-break-before:always;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+}
+
+

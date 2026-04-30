@@ -1,0 +1,23 @@
+<div class="body-text content_box text-center">
+  <div class="submit-form" *ngIf="!isSubmitted">
+    <form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+      <div>
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input matInput type="email" formControlName="contact_email">
+        </mat-form-field>
+        <mat-error *ngIf="contactForm.controls.contact_email.invalid && contactForm.controls.contact_email.touched">
+          {{getErrorMessage()}}
+        </mat-error>
+      </div>
+      <div>
+        <div>
+          <button class="btn btn-green" [disabled]="contactForm.invalid" type="submit">Send Message</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div *ngIf="isSubmitted">
+    <p>Your email has been sent!</p>
+  </div>
+</div>

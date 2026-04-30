@@ -1,0 +1,33 @@
+[
+  {
+    "rla": "rla0",
+    "label": "Home",
+    "routerLink": "/home"
+  },
+  {
+    "rla": "rla1",
+    "label": "The Main Procession 1",
+    "routerLink": "/mainProcession-1"
+  },
+  {
+    "rla": "rla2",
+    "label": "The Main Procession 2",
+    "routerLink": "/mainProcession-2"
+  },
+  {
+    "rla": "rla3",
+    "label": "Elephants Identification",
+    "routerLink": "/elephants"
+  },
+  {
+    "rla": "rla4",
+    "label": "Activities",
+    "routerLink": "/activities"
+  },
+  {
+    "rla": "rla5",
+    "label": "Retainers Review",
+    "routerLink": "/retainersReview"
+  }
+]
+

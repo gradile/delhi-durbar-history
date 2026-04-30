@@ -1,0 +1,246 @@
+@use '@angular/material' as mat;
+// Plus imports for other components in your app.
+@include mat.core();
+
+$DelhiDurbar-primary: mat.define-palette(mat.$indigo-palette);
+$DelhiDurbar-accent: mat.define-palette(mat.$pink-palette, A200, A100, A400);
+
+$DelhiDurbar-warn: mat.define-palette(mat.$red-palette);
+
+$DelhiDurbar-theme: mat.define-light-theme((
+  color: (
+    primary: $DelhiDurbar-primary,
+    accent: $DelhiDurbar-accent,
+    warn: $DelhiDurbar-warn,
+  )
+));
+
+@include mat.all-component-themes($DelhiDurbar-theme);
+
+
+:root {
+  --text-color: #ff9900;
+  --background-color: #631803;
+  --hover-color: #ff9900;
+  --orange-dark: #bc3d00;
+  --brown: #8b1128;
+  --green: #2b7f35;
+  --light-green: #18a86b;
+  --dark-green: #1e5825;
+  --green-more-dark: #033a11;
+  --yellow: #ffe655;
+  --mdc-theme-surface: #bc3d00;
+}
+
+$text-color: var(--text-color);
+$brown: var(--brown);
+$hover-color: var(--hover-color);
+$green: var(--green);
+$light-green: var(--light-green);
+$dark-green: var(--dark-green);
+$green-more-dark: var(--green-more-dark);
+$yellow: var(--yellow);
+$bs-nav-tabs-border-width: 2px;
+$bs-nav-tabs-border-color: #ffe655;
+$header-bg-color: #c08330;
+
+
+
+@font-face {
+  font-family: 'Matura MT Script Capitals';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Matura MT Script Capitals'), url('./assets/fonts/MATURASC_1.woff') format('woff');
+  }
+
+  @font-face {
+    font-family: 'high_tower';
+    src: url('./assets/fonts/htowert-webfont.woff2') format('woff2'),
+         url('./assets/fonts/htowert-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url('./assets/bg.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-color: #7d5c4b;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.border_title {
+  font-family: 'high_tower';
+  font-size: 2.5rem;
+  line-height: 50px;
+  font-weight: 200;
+  border-top: $text-color;
+  border-bottom: $text-color;
+  padding: 3px 20px 7px;
+  text-align: center;
+}
+
+.chapter_title h2 {
+  font-family: 'high_tower';
+  font-size: 2.1rem;
+  line-height: 40px;
+  font-weight: 200;
+
+  padding: 3px 20px 7px;
+  text-align: left;
+}
+
+.body-text {
+  color: var(--text-color);
+  }
+
+.content_box {
+  padding: 20px;
+  background-color: #631803;
+  border: 1px solid $hover-color;
+  -moz-box-shadow: inset 0px 0px 150px rgba(255, 153, 0, 0.5);
+  -webkit-box-shadow: inset 0px 0px 150px rgb(255 153 0 / 50%);
+  box-shadow: inset 0px 0px 150px rgb(255 153 0 / 50%);
+  max-width: 99.4%;
+}
+
+.content-text {
+  text-align: justify;
+  text-align-last: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 100;
+}
+
+.fleft {
+  float: left;
+ // padding-right: 20px;
+}
+
+.fright {
+  float: right;
+  padding-left: 20px;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.print-button {
+  font-family: 'high-tower';
+  background-image: radial-gradient($dark-green, $dark-green, $green-more-dark, $green-more-dark);
+  padding: 0.5em 1em;
+  border-color: $text-color;
+  color: $text-color;
+  font-weight: bold;
+  border-radius: 20PX;
+}
+
+.print-button:hover {
+  background-image: radial-gradient($light-green, $light-green, $dark-green, $dark-green);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+a:not([href]) {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+a {
+  color: var(--text-color); 
+  text-decoration: underline;
+}
+
+.happy-face img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+}
+
+.border_title {
+  line-height: 30px;
+  font-weight: 300;
+  color: #ff9900;
+  border-top: 1px solid #ff9900;
+  border-bottom: 1px solid #ff9900;
+  padding: 3px 0px 7px;
+  margin-bottom: 10px;
+}
+
+@media print {
+  header,
+  footer {
+    display: none;
+  }
+
+  button {
+    display: none;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  .col-md-2 {
+    width: 16%;
+  }
+
+  .col-md-3 {
+    width: 25%;
+  }
+
+  .col-md-4 {
+    width: 33%;
+  }
+
+  .col-md-5 {
+    width: 41%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  .for-print {
+    width: 70%;
+  }
+
+  .col-md-8 {
+    width: 66%;
+  }
+
+  @page {
+    margin: 1cm;
+  }
+
+  .page-break {
+    display:block;
+    page-break-before:always;
+  }
+
+  .print-only {
+    display: block;
+  }
+
+}
+
+

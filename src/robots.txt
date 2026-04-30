@@ -1,0 +1,10 @@
+User-agent: Googlebot
+Disallow: /assets
+
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Allow: /
+
+Sitemap: https://www.delhidurbar1903.com/sitemap.xml

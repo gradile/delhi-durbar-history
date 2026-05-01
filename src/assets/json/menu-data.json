@@ -71,307 +71,307 @@
       "rla": "rla1",
       "label": "1",
       "routerLink": "chapter-1",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla2",
       "label": "2",
       "routerLink": "chapter-2",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla3",
       "label": "3",
       "routerLink": "chapter-3",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla4",
       "label": "4",
       "routerLink": "chapter-4",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla5",
       "label": "5",
       "routerLink": "chapter-5",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla6",
       "label": "6",
       "routerLink": "chapter-6",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla7",
       "label": "7",
       "routerLink": "chapter-7",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla8",
       "label": "8",
       "routerLink": "chapter-8",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla9",
       "label": "9",
       "routerLink": "chapter-9",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla10",
       "label": "10",
       "routerLink": "chapter-10",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla11",
       "label": "11",
       "routerLink": "chapter-11",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla12",
       "label": "12",
       "routerLink": "chapter-12",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla13",
       "label": "13",
       "routerLink": "chapter-13",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla14",
       "label": "14",
       "routerLink": "chapter-14",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla15",
       "label": "15",
       "routerLink": "chapter-15",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla16",
       "label": "16",
       "routerLink": "chapter-16",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla17",
       "label": "17",
       "routerLink": "chapter-17",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla18",
       "label": "18",
       "routerLink": "chapter-18",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla19",
       "label": "19",
       "routerLink": "chapter-19",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla20",
       "label": "20",
       "routerLink": "chapter-20",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla21",
       "label": "21",
       "routerLink": "chapter-21",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla22",
       "label": "22",
       "routerLink": "chapter-22",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla23",
       "label": "23",
       "routerLink": "chapter-23",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla24",
       "label": "24",
       "routerLink": "chapter-24",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla25",
       "label": "25",
       "routerLink": "chapter-25",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla26",
       "label": "26",
       "routerLink": "chapter-26",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla27",
       "label": "27",
       "routerLink": "chapter-27",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla28",
       "label": "28",
       "routerLink": "chapter-28",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla29",
       "label": "29",
       "routerLink": "chapter-29",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla30",
       "label": "30",
       "routerLink": "chapter-30",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla31",
       "label": "31",
       "routerLink": "chapter-31",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla32",
       "label": "32",
       "routerLink": "chapter-32",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla33",
       "label": "33",
       "routerLink": "chapter-33",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla34",
       "label": "34",
       "routerLink": "chapter-34",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla35",
       "label": "35",
       "routerLink": "chapter-35",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla36",
       "label": "36",
       "routerLink": "chapter-36",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla37",
       "label": "37",
       "routerLink": "chapter-37",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla38",
       "label": "38",
       "routerLink": "chapter-38",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla39",
       "label": "39",
       "routerLink": "chapter-39",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla40",
       "label": "40",
       "routerLink": "chapter-40",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla41",
       "label": "41",
       "routerLink": "chapter-41",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla42",
       "label": "42",
       "routerLink": "chapter-42",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla43",
       "label": "43",
       "routerLink": "chapter-43",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla44",
       "label": "44",
       "routerLink": "chapter-44",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla45",
       "label": "45",
       "routerLink": "chapter-45",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla46",
       "label": "46",
       "routerLink": "chapter-46",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla47",
       "label": "47",
       "routerLink": "chapter-47",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla48",
       "label": "48",
       "routerLink": "chapter-48",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla49",
       "label": "49",
       "routerLink": "chapter-49",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla50",
       "label": "50",
       "routerLink": "chapter-50",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     },
     {
       "rla": "rla51",
       "label": "51",
       "routerLink": "chapter-51",
-      "className": ["menu-btn", "spaces-regular"]
+      "className": ["menu-btn", "spaces-btn-numbers"]
     }
   ]
 }

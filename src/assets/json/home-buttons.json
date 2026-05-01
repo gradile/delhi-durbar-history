@@ -1,9 +1,0 @@
-[
-  {
-    "rla": "rla1",
-    "label": "Delhi Durbar History",
-    "routerLink": "/home",
-    "className": ["menu-btn", "spaces-history"]
-  }
-]
-

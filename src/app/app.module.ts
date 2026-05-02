@@ -25,6 +25,7 @@ import { DurbarHistoryModule } from './durbar-history/durbar-history.module';
 import { SharedModule } from './shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { LayoutModule } from './layout/layout.module';
+import { StatesModule } from './states/states.module';
 
 
 
@@ -54,7 +55,8 @@ import { LayoutModule } from './layout/layout.module';
     DurbarHistoryModule,
     SharedModule,
     RouterModule,
-    LayoutModule
+    LayoutModule,
+    StatesModule,
   ],
   providers: [
     { provide: RECAPTCHA_V3_SITE_KEY, useValue: environment.recaptcha.siteKey  },

@@ -11,4 +11,6 @@ export interface MenuData {
   "beau-geste-sets": ButtonLink[];
   "beau-geste-pages": ButtonLink[];
   "chapter-btn": ButtonLink[];
+  "states": ButtonLink[];
+  "states-pages": ButtonLink[];
 }

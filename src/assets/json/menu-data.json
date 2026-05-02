@@ -373,5 +373,21 @@
       "routerLink": "chapter-51",
       "className": ["menu-btn", "spaces-btn-numbers"]
     }
+  ],
+  "states": [
+    {
+      "rla": "rla1",
+      "label": "The Indian States",
+      "routerLink": "/alwar",
+      "className": ["menu-btn", "spaces-history"]
+    }
+  ],
+  "states-pages": [
+    {
+      "rla": "rla1",
+      "label": "Alwar",
+      "routerLink": "/alwar",
+      "className": ["menu-btn", "spaces-regular"]
+    }
   ]
 }

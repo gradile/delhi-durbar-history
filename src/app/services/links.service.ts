@@ -31,8 +31,16 @@ export class LinksService {
     return this.menuData$.pipe(map(data => data["beau-geste-pages"]));
   }
 
+  getStatesButtons(): Observable<ButtonLink[]> {
+    return this.menuData$.pipe(map(data => data["states"]));
+  }
+
   getBeauGesteSetsButton(): Observable<ButtonLink[]> {
     return this.menuData$.pipe(map(data => data["beau-geste-sets"]));
+  }
+
+  getStatesPagesButtons(): Observable<ButtonLink[]> {
+    return this.menuData$.pipe(map(data => data["states-pages"]));
   }
 
   getChapterButton(): Observable<ButtonLink[]> {

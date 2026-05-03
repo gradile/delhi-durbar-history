@@ -1,0 +1,16 @@
+<div class="menu-section">
+    <div class="menu-btn spaces-sets" (click)="toggle()">
+    {{ section.title }}
+    <span class="arrow">{{ isOpen ? '▾' : '▸' }}</span>
+  </div>
+
+  <div class="section-items" *ngIf="isOpen">
+    <button
+      *ngFor="let item of section.items"
+      [routerLink]="item.routerLink"
+      routerLinkActive="active"
+      [ngClass]="item.className">
+      {{ item.label }}
+    </button>
+  </div>
+</div>

@@ -1,15 +1,8 @@
-
-  <app-home-buttons></app-home-buttons>
-  <app-history-buttons></app-history-buttons>
-
-  <app-beau-geste-sets></app-beau-geste-sets>
-
-  <app-chapters-btn></app-chapters-btn>
-
-  <div class="row">
-    <app-beau-geste-buttons></app-beau-geste-buttons>
-  </div>
-  <app-states></app-states>
-  <div class="row">
-    <app-states-pages-buttons></app-states-pages-buttons>
-  </div>
+<ng-container *ngIf="sections$ | async as sections">
+  <app-menu-section
+    *ngFor="let section of sections; let i = index"
+    [section]="section"
+    [isOpen]="openSectionIndex === i"
+    (sectionClicked)="toggleSection(i)">
+  </app-menu-section>
+</ng-container>

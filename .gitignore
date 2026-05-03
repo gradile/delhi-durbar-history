@@ -83,3 +83,4 @@ mailerApi/
 /mailerApi/.env.staging.prod.local
 /mailerApi/.env.test.prod.local
 /README.md
+*.psd

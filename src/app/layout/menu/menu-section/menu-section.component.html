@@ -1,5 +1,5 @@
 <div class="menu-section">
-    <div class="menu-btn spaces-sets" (click)="toggle()">
+    <div class="menu-btn spaces-sets" [ngClass]="{'btn-green-active': isOpen}" (click)="toggle()">
     {{ section.title }}
     <span class="arrow">{{ isOpen ? '▾' : '▸' }}</span>
   </div>

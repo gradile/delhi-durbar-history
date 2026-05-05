@@ -8,7 +8,8 @@
     <button
       *ngFor="let item of section.items"
       [routerLink]="item.routerLink"
-      routerLinkActive="active"
+      routerLinkActive="btn-green-active"
+      [routerLinkActiveOptions]="{ exact: true }"
       [ngClass]="item.className">
       {{ item.label }}
     </button>

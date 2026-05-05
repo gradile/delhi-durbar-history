@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./alwar.component.scss']
 })
 export class AlwarComponent {
-
+  sectionTitle = 'The Alwar State';
 }

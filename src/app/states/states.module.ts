@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { StatesRoutingModule } from './states-routing.module';
 import { AlwarComponent } from './pages/alwar/alwar.component';
+import { SharedModule } from '@app/shared/shared.module';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { AlwarComponent } from './pages/alwar/alwar.component';
   ],
   imports: [
     CommonModule,
-    StatesRoutingModule
+    StatesRoutingModule,
+    SharedModule
   ]
 })
 export class StatesModule { }

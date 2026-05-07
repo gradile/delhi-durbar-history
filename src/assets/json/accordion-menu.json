@@ -72,7 +72,8 @@
       {
       "title": "The Indian States",
       "items": [
-        {"label": "Alwar", "routerLink": "/alwar", "className": ["menu-btn", "spaces-regular"]}
+        {"label": "Alwar Part 1", "routerLink": "/alwar", "className": ["menu-btn", "spaces-regular"]},
+        {"label": "Alwar Part 2", "routerLink": "/alwar2", "className": ["menu-btn", "spaces-regular"]}
       ]
     }
   ]

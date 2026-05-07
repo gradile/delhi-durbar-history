@@ -1,8 +1,8 @@
-<ng-container *ngIf="sections$ | async as sections">
+<div class="fixed" *ngIf="sections$ | async as sections">
   <app-menu-section
     *ngFor="let section of sections; let i = index"
     [section]="section"
     [isOpen]="openSectionIndex === i"
     (sectionClicked)="toggleSection(i)">
   </app-menu-section>
-</ng-container>
+</div>

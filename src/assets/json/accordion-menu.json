@@ -15,7 +15,7 @@
     {
       "title": "Beau Geste Delhi Durbar Sets",
       "items": [
-        { "label": "Chapters", "routerLink": "/beau-geste/chapter-1", "className": ["menu-btn", "spaces-regular"] },
+        { "label": "Chapters", "routerLink": "/beau-geste/chapter-1", "className": ["menu-btn", "spaces-regular", "btn-green-active"] },
         { "label": "1", "routerLink": "/beau-geste/chapter-1", "className": ["menu-btn", "spaces-btn-numbers"] },
         { "label": "2", "routerLink": "/beau-geste/chapter-2", "className": ["menu-btn", "spaces-btn-numbers"] },
         { "label": "3", "routerLink": "/beau-geste/chapter-3", "className": ["menu-btn", "spaces-btn-numbers"] },
@@ -63,7 +63,7 @@
         { "label": "45", "routerLink": "/beau-geste/chapter-45", "className": ["menu-btn", "spaces-btn-numbers"]},
         { "label": "46", "routerLink": "/beau-geste/chapter-46", "className": ["menu-btn", "spaces-btn-numbers"]},
         { "label": "47", "routerLink": "/beau-geste/chapter-47", "className": ["menu-btn", "spaces-btn-numbers"]},
-        { "label": "48", "routerLink" : "/beau-geste/chapter-48", "className": ["menu-btn", "spaces-btn-numbers"]},
+        { "label": "48", "routerLink": "/beau-geste/chapter-48", "className": ["menu-btn", "spaces-btn-numbers"]},
         { "label": "49", "routerLink": "/beau-geste/chapter-49", "className": ["menu-btn", "spaces-btn-numbers"]},
         { "label": "50", "routerLink": "/beau-geste/chapter-50", "className": ["menu-btn", "spaces-btn-numbers"]},
         { "label": "51", "routerLink": "/beau-geste/chapter-51", "className": ["menu-btn", "spaces-btn-numbers"]}
